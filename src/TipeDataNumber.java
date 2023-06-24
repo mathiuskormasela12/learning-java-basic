@@ -70,7 +70,7 @@ public class TipeDataNumber {
 
         // Konversi Tipe data
         // Widening Casting (secara otomatis)
-        // Hanya bisa jika hierarki hanya hnaya beda 1 tingkat
+        // Hanya bisa jika tipe data awal nya tingkatannya lebih kecil di banding tipe data akhirnya
         // misal mau ubah byte jadi short, atau short jdi int, atau
         // int jadi long
         // byte > short > int > long > float > double
