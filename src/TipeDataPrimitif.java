@@ -36,7 +36,15 @@ public class TipeDataPrimitif {
         double wk2 = wk;
 
         // Konversi tipe data bukan primitif ke tipe data primitf (tpi ke jenis yg beda) (mesti pake method)
+        // kalo tipe data nya gk sesuai hierarki
+        // Double lebih besar dari int maka make method
         Double text = 22.5;
         int txt = text.intValue();
+
+        // Ini gk make method karena hierarkinya benar
+        // Float lebih besar di banding int
+        Double hm = 10.5;
+        int hm2 = hm.intValue();
+        System.out.println(hm2);
     }
 }
