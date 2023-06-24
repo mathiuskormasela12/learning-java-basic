@@ -16,5 +16,19 @@ public class Expression {
         {
             System.out.println("TEST" + " " + nama);
         }
+
+        // Statement Assignment
+        int txt = 20;
+
+        // Statement Increment/Decrement
+        txt++;
+        txt--;
+
+        // StatementMethod Invocation
+        // Pemanggilan method
+        System.out.println("Test");
+
+        // Statement Object Creation
+        //Date date = new Date();
     }
 }
